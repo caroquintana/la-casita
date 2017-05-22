@@ -1,0 +1,33 @@
+.la-casita{
+	border: 10px solid #B7C431;
+    width: 90%;
+    margin: 0 auto;
+    height: 800px;
+    margin-top: 50px;
+    position: relative;
+}
+.pasto{
+	width: 100%;
+	height: 100px;
+	background-color: #339431;
+	position: absolute;
+    bottom: 0;
+
+}
+.sol{
+	width: 100px; 
+	height: 100px; 
+	background: yellow; 
+	border-radius: 50px;
+	position: absolute;
+	left: 100px;
+    bottom: 500px;
+}
+.cuadrado{
+	width: 400px;
+	height: 300px;
+	background-color: #940E33;
+	position: absolute;
+    bottom: 67px;
+    left: 612px;
+}
