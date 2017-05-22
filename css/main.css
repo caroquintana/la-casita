@@ -31,3 +31,114 @@
     bottom: 67px;
     left: 612px;
 }
+.techo{
+	border-bottom: 100px solid brown;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    height: 0;
+    width: 100px;
+    position: absolute;
+    bottom: 367px;
+    left: 595px;
+}
+.puerta{
+	width: 100px; 
+	height: 200px; 
+	background: grey;
+	position: absolute;
+	bottom: 99px;
+    left: 634px;
+}
+.ventana{
+	width: 100px; 
+	height: 100px; 
+	background: white;
+	position: absolute;
+    bottom: 198px;
+    left: 800px
+}
+.chimenea{
+    width: 60px;
+    height: 82px;
+    background: #2DBDE4;
+    position: absolute;
+    bottom: 366px;
+    left: 835px;
+}
+.corazon{  
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    bottom: 198px;
+    left: 634px; 
+}
+.corazon:before, .corazon:after { 
+	position: absolute; 
+	content: ""; 
+	left: 50px; 
+	top: 0; 
+	width: 50px; 
+	height: 80px; 
+	background: #E44B86; 
+	-moz-border-radius: 50px 50px 0 0; 
+	border-radius: 50px 50px 0 0; 
+	-webkit-transform: rotate(-45deg); 
+	-moz-transform: rotate(-45deg); 
+	-ms-transform: rotate(-45deg); 
+	-o-transform: rotate(-45deg); 
+	transform: rotate(-45deg); 
+	-webkit-transform-origin: 0 100%; 
+	-moz-transform-origin: 0 100%; 
+	-ms-transform-origin: 0 100%; 
+	-o-transform-origin: 0 100%; 
+	transform-origin: 0 100%; 
+	} 
+
+.corazon:after { 
+	left: 0; 
+	-webkit-transform: rotate(45deg); 
+	-moz-transform: rotate(45deg); 
+	-ms-transform: rotate(45deg); 
+	-o-transform: rotate(45deg); 
+	transform: rotate(45deg); 
+	-webkit-transform-origin: 100% 100%; 
+	-moz-transform-origin: 100% 100%; 
+	-ms-transform-origin: 100% 100%; 
+	-o-transform-origin: 100% 100%; 
+	transform-origin :100% 100%; 
+}
+
+.humo1{
+	width: 30px; 
+	height: 30px; 
+	background: #2DBDE4;
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px;
+	position: absolute;
+	bottom: 452px;
+    left: 847px;
+}
+
+.humo2{
+	width: 30px; 
+	height: 30px; 
+	background: #2DBDE4;
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px;
+	position: absolute;
+	bottom: 488px;
+    left: 869px;
+}
+.humo3{
+	width: 30px; 
+	height: 30px; 
+	background: #2DBDE4;
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px;
+	position: absolute;
+	bottom: 524px;
+    left: 895px;
+}
